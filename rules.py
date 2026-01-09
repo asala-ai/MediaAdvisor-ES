@@ -2,26 +2,8 @@
 # Knowledge Base with conflicting rules
 
 rules = [
-    {
-        "id": 1,
-        "target": "youth",
-        "budget": "low",
-        "media": "Social Media",
-        "priority": 2
-    },
-    {
-        "id": 2,
-        "target": "youth",
-        "budget": "low",
-        "media": "Radio Advertising",
-        "priority": 1
-    },
-    {
-        "id": 3,
-        "target": "business",
-        "budget": "high",
-        "media": "Digital Marketing",
-        "priority": 3
-    }
+    {"target": "youth", "budget": "low", "media": "Social Media Ads"},
+    {"target": "youth", "budget": "high", "media": "Influencer Marketing"},
+    {"target": "adults", "budget": "medium", "media": "TV Advertising"},
+    {"target": "business", "budget": "high", "media": "LinkedIn Campaigns"}
 ]
-
