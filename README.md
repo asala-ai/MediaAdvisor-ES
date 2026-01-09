@@ -1,17 +1,25 @@
-"# Media Advisor Expert System" 
-# Media Advisor Expert System
+## Conflict Resolution in Media Advisor Expert System
 
-This project is a simple Expert System implemented in Python.
+### Conflicting Scenario
+A conflict occurs when multiple rules match the same input.
+For example, a youth audience with a low budget can match more than one media strategy.
 
-## Description
-The system recommends a suitable media strategy based on:
-- Target Audience
-- Budget Level
+### Conflict Resolution Method
+The system applies a **Priority-Based Conflict Resolution** approach.
+Each rule is assigned a priority, and the rule with the highest priority is selected.
 
-## Technologies Used
-- Python 3
-- Rule-Based Expert System
+### Why Priority Method?
+- Simple and effective
+- Common in rule-based expert systems
+- Ensures consistent decisions
+- Suitable for small and medium expert systems
 
-## How to Run
-```bash
-python main.py
+### Example
+Two rules apply:
+- Youth + Low Budget → Social Media Ads
+- Youth + Low Budget → Email Campaign
+
+The system selects the rule with higher priority.
+
+### Implementation
+The conflict resolution mechanism is implemented in Python inside the inference engine.
